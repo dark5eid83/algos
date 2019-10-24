@@ -22,7 +22,7 @@ def max_product_from_cut_pieces(n):
     if n == 3:
         return 2
 
-    max_product = [0 for _ in range(n+)]
+    max_product = [0 for _ in range(n+1)]
     
     max_product[1] = 1
     max_product[2] = 2
